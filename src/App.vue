@@ -1,17 +1,21 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <MuscleSelector
+      outer-color="#212121"
+      body-color="#607D8B"
+      muscle-color="#455A64"
+      select-color="#CDDC39"
+    />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import MuscleSelector from "./components/MuscleSelector.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    MuscleSelector,
   },
 };
 </script>
